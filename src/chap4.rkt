@@ -18,6 +18,7 @@
 (defrel (unwrapo x out)
   (conde
    ((fresh (a)
+           
            (caro x a)
            (unwrapo a out)))
    ((== x out))))

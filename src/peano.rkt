@@ -40,6 +40,6 @@
    [(zeroo m) (zeroo m*n)]
    [(fresh (k k*n)
            (succo m k)
-           (addo k*n n m*n)
-           (mulo k n k*n))]))
+           (mulo k n k*n)
+           (addo k*n n m*n))]))
            
